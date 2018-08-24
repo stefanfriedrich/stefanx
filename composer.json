@@ -1,0 +1,40 @@
+{
+    "name": "stefanx/pluginx",
+    "description": "test plugin craft3",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "pluginx"
+    ],
+    "support": {
+        "docs": "https://github.com/stefanfriedrich/pluginx/blob/master/README.md",
+        "issues": "https://github.com/stefanfriedrich/pluginx/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Friedrich",
+            "homepage": "https://github.com/stefanfriedrich"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "stefanx\\pluginx\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "pluginx",
+        "handle": "pluginx",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/stefanfriedrich/pluginx/master/CHANGELOG.md",
+        "class": "stefanx\\pluginx\\Pluginx"
+    }
+}
